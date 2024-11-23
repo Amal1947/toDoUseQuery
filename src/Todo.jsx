@@ -96,10 +96,10 @@ const TodoApp = () => {
   if (isLoading) return <div>Loading tasks...</div>;
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-400 to-blue-500 p-4">
-        <p className="bg-black text-green-50">shahn</p>
+    <div className="min-h-screen ">
+        
       <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-6">
-        <h1 className="text-4xl font-bold text-center text-blue-600 mb-6 ">Todo Manager</h1>
+        <h1 className="text-4xl font-bold text-center text-black mb-6 ">Todo Manager</h1>
 
         {/* Add Task Section */}
         <div className="flex flex-wrap gap-4 mb-6">
